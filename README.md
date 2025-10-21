@@ -1,7 +1,7 @@
 </center>
 
-***Nombre:***
-***Curso:*** 
+***Nombre:Samuel Rodriguez***
+***Curso:1ºdaw*** 
 
 ### ÍNDICE
 
