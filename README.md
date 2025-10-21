@@ -51,5 +51,14 @@ Después volvemos a hacer un `git add .` y `un git commit -m "añadido fichero .
 Ahora añadimos un fichero, con los comandos `touch 1.txt`
 
 >Pregunta sobre add y commit:El comando `add .` añade los cambios al repositorio local, el comando `git commit -m "Lo que sea "`los sube y los actualiza también en repositorio local donde nos avisara si hay cambios y si hay errores, por ultimo el `git push` los sube directamente al repositorio alojado en git hub.
+
+Seguimos creando un tag con el comando `git tag v0.1` y los subimos al repositorio remoto con `git push --tag origin master`
+
+>Pregunta sobre tag en un repositorio git:Un tag en un repositorio git es una referencia que está directamente relacionada con un commit específico, se usa para marcar puntos importantes en el proyecto.
+
+Ahora creamos una rama con `git branch v0.2` y la posicionamos en nuestra carpeta de trabajo y hacemos un `git checkout v0.2` para comprobar que todo es correcto, añadimos un fichero y le hacemos un commit con los comandos `touch 2.txt`,`git add .`,`git commit -m "añadido 2.txt"`.
+
+>pregunta sobre ranas:Las ramas sirven para trabajar en partes del proyecto sin afectar al código principal. En equipos pequeños se usan pocas ramas, y en empresas grandes se usan muchas para organizar el trabajo.
+
 #### ***Conclusiones***. <a name="id5"></a>
 
